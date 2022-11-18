@@ -250,13 +250,20 @@ button {
     gap: 21px;
     background-color: var(--Very-Dark-Grayish-Blue);
     border-radius: 8px;
-    left: 64%;
+    left: 63%;
     bottom: 135%;
     width: 248px;
     height: 53px;
     padding-left: 37px;
-    transition: transform 200ms ease-in-out;
-    z-index: 99999;
+    transition: transform 200ms ease-in-out, opacity 200ms ease-out;
+    z-index: 9;
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  .desktop-preview-container-transform {
+    transform: translateY(0px);
+    opacity: 1;
   }
 
   .desktop-preview-container::after {
@@ -264,7 +271,7 @@ button {
     position: absolute;
     width: 21px;
     height: 21px;
-    left: 53.3%;
+    left: 55%;
     bottom: -21px;
     background-color: var(--Very-Dark-Grayish-Blue);
     transform: rotate(45deg) translateX(-91%);
