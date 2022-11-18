@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Solution](https://www.frontendmentor.io/solutions/loopstudios-landing-page-scrollin-animation-and-custom-designs-yfMlasdYg4)
+- Solution URL: [Frontend Solution](https://www.frontendmentor.io/solutions/article-preview-component-2N-S6mn9n7)
 - Live Site URL: [Netlify Live Site](https://fistty-article-preview-comp.netlify.app/)
 
 ## My process
