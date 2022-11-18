@@ -16,11 +16,21 @@
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 1.1rem;
+  font-weight: 600;
   text-align: center;
+  font-family: monospace;
+  padding-inline: 0rem;
+  position: absolute;
+  bottom: -90px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  color: rgb(255, 0, 0);
 }
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: black;
 }
 
 img {
@@ -47,8 +57,9 @@ main {
   background-color: white;
   margin: 0 auto;
   border-radius: 10px;
-  overflow: hidden;
+  /* overflow: hidden; */
   box-shadow: 2px 29px 25px 16px rgb(219 228 237);
+  position: relative;
 }
 
 .main-image-container {
@@ -89,6 +100,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 .profile-image-container img {
@@ -289,5 +301,11 @@ button {
 
   .desktop-preview-container .socials-container {
     gap: 15px;
+  }
+}
+
+@media screen and (max-height: 690px) {
+  .attribution {
+    bottom: -70px;
   }
 }
