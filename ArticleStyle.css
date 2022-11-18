@@ -48,6 +48,7 @@ main {
   margin: 0 auto;
   border-radius: 10px;
   overflow: hidden;
+  box-shadow: 2px 29px 25px 16px rgb(219 228 237);
 }
 
 .main-image-container {
